@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "your-terraform-bucket-77"
+    bucket         = "your-terraform-bucket-devo"
     key            = "terraform/terraform.state"
-    region         = "us-east-1"
-    dynamodb_table = "eks-terraform-state-77"
+    region         = "eu-central-1"
+    dynamodb_table = "eks-terraform-state"
   }
 }
 
