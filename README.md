@@ -11,7 +11,7 @@ We aim to automate application deployment using the combination of several tools
 
 ## Prerequisites
 
-- Docker
+- Docker.
 - AWS CLI
 - Terraform
 - EKS
